@@ -1,4 +1,4 @@
-import  express, {Request, Response, NextFunction}  from "express";
+import express, { Request, Response, NextFunction } from "express";
 import 'express-async-errors';
 import { router } from "./routes";
 import cors from 'cors';
@@ -18,7 +18,7 @@ app.use(
 )
 
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
-    if(err instanceof Error){
+    if (err instanceof Error) {
         //se for instancia do tipo error
         return res.status(400).json({
             error: err.message
@@ -30,4 +30,4 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
     })
 })
 
-app.listen(3333, ()=> console.log("servidor online!!"));
+app.listen(3333, () => console.log("servidor online!!"));
