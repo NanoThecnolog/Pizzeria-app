@@ -120,13 +120,15 @@ export default function Product({ categoryList }: CategoryProps) {
 
 
                     <select value={categorySelected} onChange={handleChangeCategory}>
-                        {categories.map((item, index) => {
-                            return (
-                                <option key={item.id} value={index}>
-                                    {item.name}
-                                </option>
-                            )
-                        })}
+                        {categories
+                            .sort((a, b) => a.name.localeCompare(b.name))
+                            .map((item, index) => {
+                                return (
+                                    <option key={item.id} value={index}>
+                                        {item.name}
+                                    </option>
+                                )
+                            })}
 
                     </select>
                     <input

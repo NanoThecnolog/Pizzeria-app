@@ -38,3 +38,59 @@
     border-radius: 0.3rem;
     color: var(--dark-700);
 }
+
+.buttonRefresh {
+    border: 0;
+    background: transparent;
+    margin: 1rem;
+}
+
+.categoriesList {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    div {
+        display: flex;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        color: var(--white);
+        width: 100%;
+
+    }
+
+    ul li {
+        font-size: 1.2rem;
+        font-weight: bold;
+        border: 1px solid var(--green-900);
+        border-radius: 0.3rem;
+        margin: 1rem 0;
+        padding: 1rem;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li:hover {
+        background-color: var(--green-900);
+        color: var(--dark-900);
+        transform: scale(1.1);
+    }
+
+}
+
+.buttonTrash {
+    background: transparent;
+    border: 0;
+    transition: all 0.5s ease;
+}
+
+.buttonTrash:hover {
+    transform: scale(1.4);
+}

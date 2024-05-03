@@ -4,14 +4,20 @@ import multer from "multer";
 import { CreateUserController } from "./controllers/User/CreateUserController";
 import { AuthUserController } from "./controllers/User/AuthUserController";
 import { DetailUserController } from "./controllers/User/DetailUserController";
+
 import { CreateCategoryController } from "./controllers/Category/CreateCategoryController";
 import { ListCategoryController } from "./controllers/Category/ListCategoryController";
+import { RemoveCategoryController } from "./controllers/Category/RemoveCategoryController";
+
 import { CreateProductController } from "./controllers/Product/CreateProductController";
 import { ListByCategoryController } from "./controllers/Product/ListByCategoryController";
+
 import { CreateOrderController } from "./controllers/Order/CreateOrderController";
 import { RemoveOrderController } from "./controllers/Order/RemoveOrderController";
+
 import { AddItemController } from "./controllers/Order/AddItemController";
 import { RemoveItemController } from "./controllers/Order/RemoveItemController";
+
 import { SendOrderController } from "./controllers/Order/SendOrderController";
 import { ListOrdersController } from "./controllers/Order/ListOrdersController";
 import { DetailOrderController } from "./controllers/Order/DetailOrderController";
@@ -33,6 +39,7 @@ router.get('/me', isAuthenticated, new DetailUserController().handle)
 
 router.post('/category', isAuthenticated, new CreateCategoryController().handle)
 router.get('/category', isAuthenticated, new ListCategoryController().handle)
+router.delete('/category', isAuthenticated, new RemoveCategoryController().handle)
 
 //--Rotas Product
 router.post('/product', isAuthenticated, upload.single('file'), new CreateProductController().handle)
