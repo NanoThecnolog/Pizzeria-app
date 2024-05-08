@@ -1,6 +1,6 @@
 This project is a prototype of one those aplications that i have in production.
 
-Languages used: React, NextJS, Typescript, PostgreeSQL, NodeJS
+Languages used: React, React Native, NextJS, Typescript, PostgreeSQL, NodeJS
 
 The Pizzeria project was designed for establishments, restaurants, fast food outlets or anything else that offers its services in a modern and technological way.
 
