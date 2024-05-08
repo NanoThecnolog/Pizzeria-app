@@ -59,9 +59,23 @@ export default function Category({ categoryList }: CategoryProps) {
     async function handleRemoveCategory(id: string) {
         console.log(id);
         const apiClient = setupApiClient();
-        await apiClient.delete('/category', {
-            category_id: id,
-        })
+        try {
+
+            //Colocar lógica que verifica se existem produtos na categoria
+            //Criar lógica para abrir um modal com uma lista de produtos da categoria clicada.
+            await apiClient.delete('/category', {
+                params: {
+                    category_id: id
+                }
+            })
+            toast.success("Categoria excluída!");
+
+
+        } catch (err) {
+            toast.error("Verifique se existem produtos cadastrados a essa categoria.")
+
+        }
+
     }
 
     return (
