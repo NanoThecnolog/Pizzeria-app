@@ -41,13 +41,15 @@ export function signOut() {
     try {
         destroyCookie(undefined, '@nextauth.token')
         Router.push('/')
-    } catch {
-        console.log("erro ao deslogar")
+    } catch (err) {
+        toast.error("Erro ao deslogar, tente novamente.")
+        console.log("erro ao deslogar. " + err)
     }
 }
 
 export function AuthProvider({ children }: AuthProviderProps) {
-    const [user, setUser] = useState<UserProps>()
+
+    const [user, setUser] = useState<UserProps>({ id: '', name: '', email: '' })
     const isAuthenticated = !!user;
 
     useEffect(() => {

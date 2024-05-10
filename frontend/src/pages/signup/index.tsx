@@ -4,7 +4,8 @@ import Head from "next/head";
 import styles from '@/styles/Home.module.scss';
 import Image from "next/image";
 
-import logoImg from '../../../public/logo.svg';
+import logoImg from '../../../public/MARCA.png';
+
 import Link from "next/link";
 
 import { AuthContext } from "@/contexts/AuthContext";
@@ -52,7 +53,7 @@ export default function SignUp() {
                 <title>Faça seu cadastro!</title>
             </Head>
             <div className={styles.containerCenter}>
-                <Image src={logoImg} alt="Logo Pizzaria" />
+                <Image className={styles.img} src={logoImg} alt="Logo Pizzaria" />
 
                 <div className={styles.login}>
                     <h1>Crie seu acesso</h1>

@@ -5,6 +5,8 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--gray-900);
+
+
 }
 
 .login {
@@ -31,6 +33,11 @@
     font-size: 1.2rem;
 
   }
+}
+
+.img {
+  width: 40%;
+
 }
 
 .text {
