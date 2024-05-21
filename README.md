@@ -45,14 +45,11 @@ The mobile application is dedicated to waiter service. Opening orders, sending o
 
 
 <div>
-  <img height="180em" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/9ebc6dfe-a22b-43c0-a841-7256506665de"/>
-  <img height="100em" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/e62bdca1-ee49-4438-b45d-975aaa9c920e"/>
-  <img height="100em" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/5b444fd2-1f16-46fc-996e-1ac1f8c89c06"/>  
-  <img height="100em" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/f69f28b8-e739-47f5-8346-b53a63569a66"/>  
-  <img height="100em" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/8982a58b-ac8e-4ea8-bedf-627b6e527648"/>  
-  
-  
-
+  <img height="350em" margin="5px" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/9ebc6dfe-a22b-43c0-a841-7256506665de"/>
+  <img height="350em" margin="5px" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/e62bdca1-ee49-4438-b45d-975aaa9c920e"/>
+  <img height="350em" margin="5px" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/5b444fd2-1f16-46fc-996e-1ac1f8c89c06"/>  
+  <img height="350em" margin="5px" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/f69f28b8-e739-47f5-8346-b53a63569a66"/>  
+  <img height="350em" margin="5px" src="https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/8982a58b-ac8e-4ea8-bedf-627b6e527648"/>
 </div>
 
 
