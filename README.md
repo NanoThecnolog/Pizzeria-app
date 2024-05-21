@@ -45,3 +45,14 @@ The mobile application is dedicated to waiter service. Opening orders, sending o
 
 
 
+<div>
+![image](https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/bb335d03-56fd-4846-b4e8-8c038cf97a4d)
+
+
+
+![image](https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/f69f28b8-e739-47f5-8346-b53a63569a66)
+
+![WhatsApp Image 2024-05-21 at 02 40 25](https://github.com/NanoThecnolog/Pizzeria-app/assets/167152753/9ebc6dfe-a22b-43c0-a841-7256506665de)
+</div>
+
+
