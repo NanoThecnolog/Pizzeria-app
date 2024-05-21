@@ -4,7 +4,7 @@ This project is a prototype of one those aplications that i have in production.
 
 ### Languages and Technologies
 
-React, React Native, NextJS, Typescript, PostgreeSQL, NodeJS
+React, React Native, NextJS, Typescript, PostgreSQL, NodeJS
 
 ### Project's goal
 
