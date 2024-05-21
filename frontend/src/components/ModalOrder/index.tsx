@@ -36,6 +36,7 @@ export function ModalOrder({ isOpen, onRequestClose, order, handleFinishOrder }:
         >
 
             <button
+                title='close'
                 type='button'
                 onClick={onRequestClose}
                 className='react-modal-close'

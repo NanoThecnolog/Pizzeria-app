@@ -3,7 +3,7 @@ import { parseCookies } from "nookies";
 
 
 
-export function canSSRGuest<P>(fn: GetServerSideProps<P>) {
+export function canSSRGuest<P extends { [key: string]: any }>(fn: GetServerSideProps<P>) {
     return async (context: GetServerSidePropsContext): Promise<GetServerSidePropsResult<P>> => {
 
         const cookies = parseCookies(context);

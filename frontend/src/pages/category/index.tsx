@@ -69,6 +69,7 @@ export default function Category({ categoryList }: CategoryProps) {
                 }
             })
             toast.success("Categoria excluída!");
+            handleRefreshCategories();
 
 
         } catch (err) {
